@@ -40,5 +40,21 @@ class User {
             return false;
         }
     }
+    
+    public function isFriend($username_to_check) {
+        $usernameComma = "," . $username_to_check . ",";
+        if (strstr($this->user['friend_array'], $usernameComma) || $username_to_check == $this->user['username']) {
+            return true;
+        } else {
+            return false;
+        }
+    }
+    
+    public function getProfilePic() {
+        $username = $this->user['username'];
+        $query = mysqli_query($this->conn, "SELECT profile_pic FROM users WHERE username='$username'");
+        $row = mysqli_fetch_array($query);
+        return $row['profile_pic'];
+    }
 
 }

@@ -22,6 +22,11 @@ body {
     background-color: #E6EAE8;
 }
 
+a{
+    color: #20aae5;
+    text-decoration: none;
+}
+
 .top_bar {
     width: 100%;
     min-width: 1050px;
@@ -53,6 +58,7 @@ nav {
     right: 1px;
     position: absolute;
     margin: 10px;
+    margin-right: 20px;
 }
 
 nav a {
@@ -60,6 +66,8 @@ nav a {
     color: #fff;
     text-decoration: none;
     font-size: 17px;
+    margin-right: 5px;
+    margin-left: 5px;
 }
 
 nav a:hover {
@@ -145,4 +153,66 @@ textarea:focus {
 
 .post_form input[type="submit"]:active {
     padding: 5px 4px 4px 5px;
+}
+
+.status_post {
+    width: 96%;
+    font-size: 15px;
+    padding: 0px 5px;
+    min-height: 75px;
+    cursor: pointer;
+}
+
+.post_profile_pic {
+    float: left;
+    margin-right: 7px;
+}
+
+.post_profile_pic img {
+    border-radius: 5px;
+}
+
+#comment_iframe {
+    max-height: 250px;
+    width: 100%;
+    margin-top: 5px;
+}
+
+.comment_section {
+    padding: 0 5px 5px 5px;
+}
+
+.comment_section img {
+    margin : 0 6px 6px 6px;
+    border-radius: 3px;
+}
+
+#comment_form textarea{
+    border-color: #d3d3d3;
+    width: 85%;
+    height: 35px;
+    border-radius: 5px;
+    color: #616060;
+    font-size: 14px;
+    margin: 3px 3px 3px 5px;
+}
+
+#comment_form input[type='submit']{
+    border: none;
+    background-color: #20aae5;
+    color: #156588;
+    border-radius: 5px;
+    width: 13%;
+    height: 40px;
+    margin-top: 3px;
+    position: absolute;
+    font-family: 'Bellota-BoldItalic', sans-serif;
+    text-shadow: #73B6E2 0.5px 0.5px 0px;
+}
+
+.newsfeedPostOptions{
+    padding: 0px;
+    text-decoration: none;
+    color: #20aae5;
+    border: none;
 }
