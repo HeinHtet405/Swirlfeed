@@ -216,3 +216,65 @@ textarea:focus {
     color: #20aae5;
     border: none;
 }
+
+.newsfeedPostOptions iframe {
+    border: 0px;
+    height: 17px;
+    width: 120px;
+}
+
+.newsfeedPostOptions form {
+    position: absolute;
+    top: 0;
+}
+
+.comment_like {
+    background-color: transparent;
+    border: none;
+    font-size: 14px;
+    color: #3498db;
+    padding: 0;
+    height: auto;
+    width: auto;
+    margin: 0;
+}
+
+.like_value {
+    display: inline;
+    font-size: 14px;
+    margin-left: 10px;
+}
+
+.profile_left {
+    top: -10px;
+    width: 17%;
+    max-width: 240px;
+    min-width: 130px;
+    height: 100%;
+    float: left;
+    position: relative;
+    background-color: #37B0E9;
+    border-right: 10px solid #83D6FE;
+    color: #CBEAF8;
+    margin-right: 20px;
+}
+
+.profile_left img {
+    min-width: 80px;
+    width: 55%;
+    margin: 20px;
+    border: 5px solid #83d6fe;
+    border-radius: 100px;
+}
+
+.profile_info {
+    display: list-item;
+    background-color: #286090;
+    width: 100%;
+    padding: 10px 0 10px 0;
+}
+
+.profile_info p {
+    margin: 0 0 0 20px;
+    word-wrap: break-word;
+}
